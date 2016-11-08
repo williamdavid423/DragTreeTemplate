@@ -15,7 +15,7 @@ namespace DragTree
     {
         // TODO - create an int variable to track currentRow,
         // TODO - create a Stopwatch object called stopwatch (interval 400ms)
-        // TODO - create a timer on the form called lightTimer
+        // TODO - create a timer on the form called lightTimer 
 
         public Form1()
         {
