@@ -15,7 +15,15 @@ namespace DragTree
     {
         // TODO - create an int variable to track currentRow,
         // TODO - create a Stopwatch object called stopwatch 
+
         // TODO - create a timer on the form called lightTimer (interval 400ms)
+        // TODO - create the tick event for the lightTimer
+
+        // place the following comments in the lighTimer tick event
+        // TODO - create a switch block that checks currentRow. In each case
+        // it will light up the appropriate lights, (labels). 
+
+        // TODO - increment the currentRow value by 1
 
         public Form1()
         {
@@ -25,16 +33,6 @@ namespace DragTree
         private void startButton_Click(object sender, EventArgs e)
         {
             // TODO - start the timer
-
-        }
-
-        private void lightTimer_Tick(object sender, EventArgs e)
-        {
-            // TODO - attacht this method to the lightTimer that was added on the form
-            // TODO - create a switch block that checks currentRow. In each case
-            // it will light up the appropriate lights, (labels). 
-
-            // TODO - increment the currentRow value by 1
 
         }
 
