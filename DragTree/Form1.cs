@@ -16,8 +16,12 @@ namespace DragTree
         // TODO - create an int variable to track currentRow,
         // TODO - create a Stopwatch object called stopwatch 
 
+        int currentRow;
+        Stopwatch stopwatch = new Stopwatch();
+
         // TODO - create a timer on the form called lightTimer (interval 400ms)
         // TODO - create the tick event for the lightTimer
+        
 
         // place the following comments in the lighTimer tick event
         // TODO - create a switch block that checks currentRow. In each case
@@ -33,16 +37,19 @@ namespace DragTree
         private void startButton_Click(object sender, EventArgs e)
         {
             // TODO - start the timer
-
+            lightTimer.Enabled = true;
         }
 
         private void goButton_Click(object sender, EventArgs e)
         {
             // TODO - stop the stopwatch
+            stopwatch.Stop();
 
             // TODO - check if the ellapsed time in milliseconds is > 0. 
             // If yes show the time.
             // If no show "FOUL START" 
+
+        
 
         }
 
@@ -56,5 +63,19 @@ namespace DragTree
 
         }
 
+        private void Timer1_Tick(object sender, EventArgs e)
+        {
+            // TODO - create a switch block that checks currentRow. In each case
+            // it will light up the appropriate lights, (labels). 
+
+            // TODO - increment the currentRow value by 1
+          if(currentRow == 1)
+            {
+
+            }
+          
+        
+          
+        }
     }
 }
