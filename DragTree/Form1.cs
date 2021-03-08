@@ -49,6 +49,8 @@ namespace DragTree
             // If yes show the time.
             // If no show "FOUL START" 
 
+            if ()
+
         
 
         }
@@ -69,9 +71,48 @@ namespace DragTree
             // it will light up the appropriate lights, (labels). 
 
             // TODO - increment the currentRow value by 1
-          if(currentRow == 1)
-            {
+            int scene = 0;
+            currentRow++;
 
+            if (currentRow == 1)
+            {
+                scene = 1;
+            }
+            else if (currentRow == 2)
+            {
+                scene = 2;
+            }
+            else if (currentRow == 3)
+            {
+                scene = 3;
+            }
+            else if (currentRow == 4)
+            {
+                scene = 4;
+            }
+
+            switch(scene)
+            {
+                case 0:
+
+                    break;
+                case 1:
+                    row1col1.BackColor = Color.Yellow;
+                    row1col2.BackColor = Color.Yellow;
+                    break;
+                case 2:
+                    row2col1.BackColor = Color.Yellow;
+                    row2col2.BackColor = Color.Yellow;
+                    break;
+                case 3:
+                    row3col1.BackColor = Color.Yellow;
+                    row3col2.BackColor = Color.Yellow;
+                    break;
+                case 4:
+                    row4col1.BackColor = Color.Green;
+                    row4col2.BackColor = Color.Green;
+                    stopwatch.Start();
+                    break;
             }
           
         
